@@ -2,7 +2,7 @@ param(
     #I believe the page size is 30 max
     $pagesize = 25,
     $search = "",
-    $totalCards = 350,
+    $totalCards = 370,
     $totalHouses = 7
 )
 $Url = "https://www.keyforgegame.com/api/decks/?page={0}&page_size={1}&search={2}&links=cards" -f "{0}", $pagesize, $search
